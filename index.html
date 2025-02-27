@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <script>
+      function joinUser() {
+        const path = prompt("Enter the room you want to join.  (no spaces)");
+        window.location.replace(window.location.href + `${path}`);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="joinUser()">Join</button>
+    <!-- <script src="static/js/app.js"></scrip> -->
+  </body>
+</html>
